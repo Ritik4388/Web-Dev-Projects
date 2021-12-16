@@ -1,0 +1,32 @@
+div{
+  background-color: red;
+  width: 400px;
+  height: 400px ;
+  position: relative ;
+  left: 370px;
+  top: 160px;
+  transform: rotate(-45deg) ;
+  border-radius: 0%;
+}
+html{
+  background-color:hsl(120,25%,55%) ; ;
+}
+.top::after{
+  background-color:red;
+  content:"" ;
+  width:400px;
+  height:400px;
+  position : absolute ;
+  left: 200px;
+  top: 0px;
+  border-radius: 50%;
+}
+.top::before{
+  background-color:red;
+  content:"" ;
+  width:400px;
+  height:400px;
+  position: absolute;
+  bottom: 200px;
+  border-radius: 50%;
+}
